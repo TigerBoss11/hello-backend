@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="HelloBackend.Core.Tests/HelloBackend.Core.Tests.csproj" />
+  <Project Path="HelloBackend.Core/HelloBackend.Core.csproj" />
+  <Project Path="HelloBackend/HelloBackend.csproj" />
+</Solution>

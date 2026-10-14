@@ -1,4 +1,3 @@
-# Build
 bin/
 obj/
 *.user
@@ -6,20 +5,19 @@ obj/
 *.userosscache
 *.sln.docstates
 
-# NuGet
 *.nupkg
 **/packages/*
 !**/packages/build/
 
-# IDE / OS
 .vs/
 .idea/
 *.swp
 *~
 .DS_Store
 
-# Secrets — never commit
 .env
 .env.*
 *.pfx
 appsettings.*.local.json
+
+**/connection.local.txt
